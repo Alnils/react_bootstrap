@@ -1,16 +1,18 @@
 import { useState } from 'react'
 
 import './App.css'
-import Navbar from './components/navbar.jsx'
+import Navbar from '../components/Navbar.jsx'
+import Home from './pages/Home.jsx'
 
 function App() {
   return (
     <>
     <Navbar />
 
-      <div className = "bg-primary">
-        <h1>StoreAid Application</h1>
-      </div>
+    <main>
+      <Home />
+    </main>
+     
     </>
   )
 }

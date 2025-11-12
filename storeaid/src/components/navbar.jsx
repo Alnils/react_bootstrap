@@ -1,4 +1,5 @@
 import React from 'react'
+import StandardButton from './standardbutton'
 
 export default function navbar() {
   return (
@@ -36,9 +37,7 @@ export default function navbar() {
                 </nav>
             </div>
 
-            <div className="standardbutton" >
-                <button>Book Now</button>  
-            </div>
+            <StandardButton text="Book NAOW!" />
         </div>
     </div>
   )
