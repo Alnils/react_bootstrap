@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+   <title>Storeaid - Storage Company.</title>
+</head>
+
+<body>
+
+
+<!-- #0 Header -->
+
+<header>
+    <div class ="topcontainer">
+
+        <div class ="phoneinformation">
+            <img src="imgs/0-header/phone_icon.svg" alt="Phone icon" width="30" height="30">
+            <p>+46 8 123 122 44</p>    
+        </div>
+        
+        <div class ="emailinformation">
+            <img src="imgs/0-header/mail_icon.svg" alt="Mail icon" width="30" height="30">
+            <p>contact@domain.com</p>
+        </div>
+
+        <div class ="socialmediaicons">
+            <img src="imgs/0-header/facebook_icon.svg" alt="Facebook" width="30" height="30">
+            <img src="imgs/0-header/twitter_icon.svg" alt="Twitter" width="30" height="30">
+            <img src="imgs/0-header/instagram_icon.svg" alt="Instagram" width="30" height="30">
+            <img src="imgs/0-header/youtube_icon.svg" alt="YouTube" width="30" height="30">
+        </div>
+    </div>
+
+    <div class ="maincontainer">
+        
+        <div class ="logo">
+            <img src="imgs/0-header/storeaid_logo.svg" alt="Storeaid Logo" width="150" height="50">
+        </div>
+
+        <div class ="navigationmenu">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="standardbutton" >
+            <button>Book Now</button>  
+        </div>
+    </div>
+</header>
+
+<!-- #1 Home/hero -->
+
+<section id="home" class="home-section">
+    <div class="home-content">
+        <h3>Welcome to Storeaid</h3>
+        <h1>Space Simplified, Storage Perfected</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor.</p>
+        <button class="standardbutton">Discover More</button>
+    </div>
+    <img src="imgs/1-home/home_man_img.svg" alt="Home section illustration" class="home-image">
+</section>
+
+<!-- #2 About us  -->
+
+<section id="aboutus" class="aboutus-section">
+
+    <div class="aboutus-content-left">
+
+        <div class="greybox_placeholder_aboutus">
+        </div>
+
+        <div class="statsbox">
+            <div class="stat1">
+                <h2>12+</h2>
+                <p>Years of experience</p>
+            </div>
+            <div class="stat2">
+                <h2>150K+</h2>
+                <p>Satisfied Clients</p>
+            </div>
+            <div class="stat3">
+                <h2>35+</h2>
+                <p>Warehouses</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutus-content-right">
+        <div class="aboutus-text-intro">
+            <h3>About Us</h3>
+            <h2>Providing a Safe Space for Your Treasured Items</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue. Phasellus eget elit gravida.</p>
+        </div>
+
+        <div class="aboutus-textboxes">
+            <div class="textbox">
+                <h2>Vision</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium.</p>
+            </div>
+            <div class="textbox_yellow">
+                <h2>Mission</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium.</p>
+            </div>
+        </div>
+
+        <div class="aboutus-bottom">
+            <button class="standardbutton">Discover More</button>
+            <img src="imgs/2-aboutus/phone_icon.svg" alt="Phone icon" class="phone_icon">
+            <p>More information</p>
+            <p>+46 8 123 122 44</p>
+        </div>
+    </div>
+</section>
+
+<!-- #3 brands banner -->
+<section class="brands-section">
+    <div class="brands-container">
+    <img src="imgs/3-brands/b1.svg" alt="Brand 1" class="brand-logo">
+    <img src="imgs/3-brands/b2.svg" alt="Brand 2" class="brand-logo">
+    <img src="imgs/3-brands/b3.svg" alt="Brand 3" class="brand-logo">
+    <img src="imgs/3-brands/b4.svg" alt="Brand 4" class="brand-logo">
+    <img src="imgs/3-brands/b5.svg" alt="Brand 5" class="brand-logo">
+    </div>
+</section>      
+
+<!-- #4 services -->
+<section id="services" class="services-section">
+
+    <div class="services-intro">
+        <h3>Our Services</h3>
+        <h2>Specialized Storage for Every Special Item</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
+    </div>
+
+    <div class="services-content">
+
+        <div class="services-cards-left">
+            <div class="textbox_yellow">
+                <h2>Diverse Unit Sizes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="textbox">
+                <h2>Moving Assistance</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+        </div>
+
+        <div class ="greybox_placeholder_services">
+        </div>
+        
+        <div class="services-cards-right">
+            <div class="textbox">
+                <h2>Vehicle Storage</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>    
+            </div>
+            <div class="textbox">
+                <h2>Top-Notch Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- #5 testimonials -->
+<section class="testimonials-section">
+
+    <div class="testimonials-intro">
+        <h3>Testimonials</h3>
+        <h2>See What Our Client Have to Say</h2>   
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
+    </div>
+
+    <div class="testimonials-cards">
+        <div class="testimonial-card">
+            <!-- 4/5 star rating -->
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Ut libero lectus, porta nec turpis sit amet, lobortis fringilla ante.</p>
+            <img src="imgs/5-testimonials/user-picture_placeholder.svg" alt="Client 1 Image" class="client-image">
+            <h4>Aiden Harvey</h4>
+            <p>Customer</p>
+            <img src="imgs/5-testimonials/quote_icon.svg" alt="Quote Icon" class="quote-icon">
+        </div>
+
+        <div class="testimonial-card">
+            <!-- 5/5 star rating -->
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Ut libero lectus, porta nec turpis sit amet, lobortis fringilla ante.</p>
+            <img src="imgs/5-testimonials/user-picture_placeholder.svg" alt="Client 2 Image" class="client-image">
+            <h4>Carrisa Jocelyn</h4>
+            <p>Customer</p>
+            <img src="imgs/5-testimonials/quote_icon.svg" alt="Quote Icon" class="quote-icon">
+        </div>
+
+        <div class="testimonial-card">
+            <!-- 5/5 star rating -->
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+            <img src="imgs/5-testimonials/star-rating_icon.svg" alt="Star rating" class="star-rating">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Ut libero lectus, porta nec turpis sit amet, lobortis fringilla ante.</p>
+            <img src="imgs/5-testimonials/user-picture_placeholder.svg" alt="Client 3 Image" class="client-image">
+            <h4>Celvin Gabriel</h4>
+            <p>Customer</p>
+            <img src="imgs/5-testimonials/quote_icon.svg" alt="Quote Icon" class="quote-icon">
+    </div>
+</section>
+
+<!-- #6 choose us -->
+<section class="chooseus-section">
+    <div class="chooseus-intro">
+        <h3>Why Choose Us</h3>
+        <h2>Choose Us for Exceptional Storage Solutions</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
+    </div>
+
+    <div class="chooseus-features">
+        <div class="feature-card">
+            <img src="imgs/6-chooseus/1-lock_icon.svg" alt="Lock icon" class="feature-icon">
+            <h2>Security and Safety</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="imgs/6-chooseus/2-money_icon.svg" alt="Money icon" class="feature-icon">
+            <h2>Flexible and Affordable</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="imgs/6-chooseus/3-broom_icon.svg" alt="Broom icon" class="feature-icon">
+            <h2>Clean and Well-Maintained Facilities</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="imgs/6-chooseus/4-clock_icon.svg" alt="Clock icon" class="feature-icon">
+            <h2>24/7 and Convenient Access</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+    </div>
+    
+    <div class="greybox_placeholder_chooseus">
+    </div>
+</section>
+
+<!-- #7 pricing   -->
+<section class="pricing-section">
+    <div class="pricing-intro">
+        <h3>Pricing Plan</h3>
+        <h2>Find the Perfect Plan for Your Storage Needs</h2>
+    </div>
+
+    <div class="pricing-cards">
+        <div class="pricing-card-small">
+            <h2>Small Unit</h2>
+            <p class="price">$50/month</p>
+            <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
+                <hr>
+            <ul class="features-list" img="imgs\7-pricing\checkmark-black_icon.svg">
+                <li>Nam nec ipsum in dolor</li>
+                <li>Fusce nec ligula ut arcu</li>
+                <li>Aliquam pulvinar arcu in</li>
+                <li>Duis gravida enim porta</li>
+                <li>Etiam eget libero non ligula</li>
+            </ul>
+            <button class="standardbutton">Rent Now</button>
+        </div>
+
+        <div class="pricing-card-medium">
+            <h2>Medium Unit</h2>
+            <p class="price">$100/month</p>
+            <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
+                <hr>
+            <ul class="features-list" img="imgs\7-pricing\checkmark-white_icon.svg">
+                <li>Nam nec ipsum in dolor</li>
+                <li>Fusce nec ligula ut arcu</li>
+                <li>Aliquam pulvinar arcu in</li>
+                <li>Duis gravida enim porta</li>
+                <li>Etiam eget libero non ligula</li>
+            </ul>
+            <button class="standardbutton">Rent Now</button>
+        </div>
+
+        <div class="pricing-card-large">
+            <h2>Large Unit</h2>
+            <p class="price">$150/month</p>
+            <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
+                <hr>
+            <ul class="features-list" img="imgs\7-pricing\checkmark-black_icon.svg">
+                <li>Nam nec ipsum in dolor</li>
+                <li>Fusce nec ligula ut arcu</li>
+                <li>Aliquam pulvinar arcu in</li>
+                <li>Duis gravida enim porta</li>
+                <li>Etiam eget libero non ligula</li>
+            </ul>
+            <button class="standardbutton">Rent Now</button>
+        </div>
+
+        </div class="pricing-card-executive">
+            <h2>Executive Unit</h2>
+            <p class="price">$200/month</p>
+            <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
+                <hr>
+            <ul class="features-list" img="imgs\7-pricing\checkmark-black_icon.svg">
+                <li>Nam nec ipsum in dolor</li>
+                <li>Fusce nec ligula ut arcu</li>
+                <li>Aliquam pulvinar arcu in</li>
+                <li>Duis gravida enim porta</li>
+                <li>Etiam eget libero non ligula</li>
+            </ul>
+            <button class="standardbutton">Rent Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- #8 booking banner -->
+<section class="bookingbanner-section">
+    <div class="bookingbanner-content">
+        <h2>Looking for Secure and Flexible Storage? Find Your Perfect Fit With Us.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
+        <button class="standardbutton">Book Now</button>
+    </div>
+</section>
+
+<!-- #9 blog posts -->
+<section class="blogposts-section">
+    <div class="blogposts-intro">
+        <h3>Latest Blog and News</h3>
+        <h2>Check Out Our Latest Blog and News Update</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
+    </div>
+
+    <div class="blogposts-cards">
+        <div class="blogpost-card">
+            <div class="greybox_placeholder_blogpost"></div>
+            <div class="blogpost_date">
+                <img src="imgs/9-blogposts/calender_icon.svg" alt="Calender Icon" class="calender-icon">
+                <p>August 17, 2025</p>
+            </div>
+            <h2>Safe and Secure: The Importance of Choosing the Right Storage</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem…</p>
+            <a href="#" class="readmore-link">Read More -></a>
+        </div>
+
+        <div class="blogpost-card">
+            <div class="greybox_placeholder_blogpost"></div>
+            <div class="blogpost_date">
+                <img src="imgs/9-blogposts/calender_icon.svg" alt="Calender Icon" class="calender-icon">
+                <p>July 12, 2025</p>
+            </div>            
+            <h2>Storage Trends 2024: What’s New in the World of Storage</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem…</p>
+            <a href="#" class="readmore-link">Read More -></a>
+        </div>
+
+        <div class="blogpost-card">
+            <div class="greybox_placeholder_blogpost"></div>
+            <div class="blogpost_date">
+                <img src="imgs/9-blogposts/calender_icon.svg" alt="Calender Icon" class="calender-icon">
+                <p>April 8, 2025</p>
+            </div>            
+            <h2>Free Up Your Space, Free Up Your Life: The Power of Decluttering</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem…</p>
+            <a href="#" class="readmore-link">Read More -></a>
+        </div>
+    </div>
+</section>
+
+<!-- #10 subscribe banner -->
+<section class="subscribebanner-section">
+    <div class="subscribebanner-content">
+        <h2>Subscribe Our Newsletter</h2>
+        <p>Subscribe to our newsletter to receive early discount offers, updates and info</p>
+        <div class="subscribe-form">
+            <input type="email" placeholder="Enter your email *" class="email-input">
+            <button class="standardbutton">Submit</button>
+        </div>
+    </div>
+</section>
+
+<!-- #11 footer -->
+<footer>
+
+    <small>© <span id="year"></span> StorAid, All rights reserved.</small>
+
+    <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+</footer>
+
+
+
+    <!-- Small inline helper script -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Link your app JS (ES module) -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>

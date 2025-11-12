@@ -1,12 +1,19 @@
 import { useState } from 'react'
 
 import './App.css'
+import Navbar from '../components/Navbar.jsx'
+import Home from './pages/Home.jsx'
 
 function App() {
   return (
-      <div className = "bg-primary">
-        <h1>StoreAid Application</h1>
-      </div>
+    <>
+    <Navbar />
+
+    <main>
+      <Home />
+    </main>
+     
+    </>
   )
 }
 

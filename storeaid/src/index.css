@@ -13,6 +13,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbarcontainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+
+  .topcontainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    .phoneinformation, .emailinformation, .socialmediaicons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .maincontainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    .logo {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .navigationmenu {
+      display: flex;
+      gap: 20px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          color: #646cff;
+        }
+      }
+    }
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
