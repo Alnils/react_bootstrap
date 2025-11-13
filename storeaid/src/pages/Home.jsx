@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import StandardButton from '../components/standardbutton'
+import StandardButton from '../components/Standardbutton'
 
 export default class Home extends Component {
     render() {

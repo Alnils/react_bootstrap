@@ -1,5 +1,5 @@
 import React from 'react'
-import StandardButton from './standardbutton'
+import StandardButton from './Standardbutton'
 
 export default function navbar() {
   return (
