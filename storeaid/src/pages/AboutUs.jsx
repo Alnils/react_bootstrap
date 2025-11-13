@@ -46,7 +46,7 @@ export default class AboutUs extends Component {
 
                     <div className="aboutus-bottom">
                         <button className="standardbutton">Discover More</button>
-                        <img src="imgs/2-aboutus/phone_icon.svg" alt="Phone icon" className="phone_icon"></img>
+                        <img src="./src/imgs/2-aboutus/phone_icon.svg" alt="Phone icon" className="phone_icon"></img>
                             <p>More information</p>
                             <p>+46 8 123 122 44</p>
                     </div>
