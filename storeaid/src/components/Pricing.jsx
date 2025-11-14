@@ -16,7 +16,7 @@ export default class Pricing extends Component {
                         <p className="price">$50/month</p>
                         <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
                         <hr></hr>
-                        <ul className="features-list" img="../imgs/7-pricing/checkmark-black_icon.svg">
+                        <ul className="features-list" img="./src/imgss/7-pricing/checkmark-black_icon.svg">
                             <li>Nam nec ipsum in dolor</li>
                             <li>Fusce nec ligula ut arcu</li>
                             <li>Aliquam pulvinar arcu in</li>
@@ -31,7 +31,7 @@ export default class Pricing extends Component {
                         <p className="price">$100/month</p>
                         <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
                         <hr></hr>
-                        <ul className="features-list" img="../imgs/7-pricing/checkmark-white_icon.svg">
+                        <ul className="features-list" img="./src/imgss/7-pricing/checkmark-white_icon.svg">
                             <li>Nam nec ipsum in dolor</li>
                             <li>Fusce nec ligula ut arcu</li>
                             <li>Aliquam pulvinar arcu in</li>
@@ -46,7 +46,7 @@ export default class Pricing extends Component {
                         <p className="price">$150/month</p>
                         <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
                         <hr></hr>
-                        <ul className="features-list" img="../imgs/7-pricing/checkmark-black_icon.svg">
+                        <ul className="features-list" img="./src/imgss/7-pricing/checkmark-black_icon.svg">
                             <li>Nam nec ipsum in dolor</li>
                             <li>Fusce nec ligula ut arcu</li>
                             <li>Aliquam pulvinar arcu in</li>
@@ -61,7 +61,7 @@ export default class Pricing extends Component {
                         <p className="price">$200/month</p>
                         <p>Phasellus sollicitudin sapien eu massa accumsan, quis semper odio suscipit.</p>
                         <hr></hr>
-                        <ul className="features-list" img="../imgs/7-pricing/checkmark-black_icon.svg">
+                        <ul className="features-list" img="./src/imgss/7-pricing/checkmark-black_icon.svg">
                             <li>Nam nec ipsum in dolor</li>
                             <li>Fusce nec ligula ut arcu</li>
                             <li>Aliquam pulvinar arcu in</li>
