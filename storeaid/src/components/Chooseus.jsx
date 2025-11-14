@@ -12,25 +12,25 @@ export default class Chooseus extends Component {
 
     <div className="chooseus-features">
         <div className="feature-card">
-            <img src="./src/imgss/6-chooseus/1-lock_icon.svg" alt="Lock icon" className="feature-icon"></img>
+            <img src="./src/imgs/6-chooseus/1-lock_icon.svg" alt="Lock icon" className="feature-icon"></img>
             <h2>Security and Safety</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         </div>
 
         <div className="feature-card">
-            <img src="./src/imgss/6-chooseus/2-money_icon.svg" alt="Money icon" className="feature-icon"></img>
+            <img src="./src/imgs/6-chooseus/2-money_icon.svg" alt="Money icon" className="feature-icon"></img>
             <h2>Flexible and Affordable</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         </div>
 
         <div className="feature-card">
-            <img src="./src/imgss/6-chooseus/3-broom_icon.svg" alt="Broom icon" className="feature-icon"></img>
+            <img src="./src/imgs/6-chooseus/3-broom_icon.svg" alt="Broom icon" className="feature-icon"></img>
             <h2>Clean and Well-Maintained Facilities</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         </div>
 
         <div className="feature-card">
-            <img src="./src/imgss/6-chooseus/4-clock_icon.svg" alt="Clock icon" className="feature-icon"></img>
+            <img src="./src/imgs/6-chooseus/4-clock_icon.svg" alt="Clock icon" className="feature-icon"></img>
             <h2>24/7 and Convenient Access</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         </div>

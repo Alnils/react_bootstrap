@@ -13,7 +13,7 @@ export default class Home extends Component {
                     {/* <button className="standardbutton">Discover More</button> */}
                     <StandardButton text="Discover More"/>
                 </div>
-                <img src="./src/imgss/1-home/home_man_img.svg" alt="Home section illustration" className="home-image"></img>
+                <img src="./src/imgs/1-home/home_man_img.svg" alt="Home section illustration" className="home-image"></img>
             </section>
         )
     }
