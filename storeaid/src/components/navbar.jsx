@@ -6,12 +6,12 @@ export default function Navbar() {
     <div className ="navbarcontainer">
         <div className="topcontainer">
             <div className="phoneinformation">
-                <img src="./src/imgs/0-header/phone_icon.svg" alt="Phone icon" width="30" height="30"></img>
+                <img src="./src/imgs/0-header/phone_icon.svg" alt="Phone icon" width="18" height="18"></img>
                 <p>+46 8 123 122 44</p>    
             </div>
             
             <div className="emailinformation">
-                <img src="./src/imgs/0-header/mail_icon.svg" alt="Mail icon" width="30" height="30"></img>
+                <img src="./src/imgs/0-header/mail_icon.svg" alt="Mail icon" width="20" height="19.36"></img>
                 <p>contact@domain.com</p>
             </div>
 
@@ -25,7 +25,7 @@ export default function Navbar() {
 
         <div className="maincontainer">            
             <div className="logo">
-                <img src="./src/imgs/0-header/storeaid_logo.svg" alt="Storeaid Logo" width="150" height="50"></img>
+                <img src="./src/imgs/0-header/storeaid_logo.svg" alt="Storeaid Logo" width="181" height="59"></img>
             </div>
 
             <div className="navigationmenu">
